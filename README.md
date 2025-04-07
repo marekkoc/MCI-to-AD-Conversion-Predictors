@@ -46,13 +46,19 @@ A Random Forest algorithm was implemented with optimized hyperparameters through
 </table>
 <br>
 
-
 ## Key Findings
 
 The model achieved approximately 70% accuracy in predicting conversion from MCI to AD in the test set, with 69% sensitivity and 77% specificity. Multiple model interpretation techniques consistently identified three key predictors:
 1. Daily life functioning (FAQ scores)
 2. Verbal memory function (particularly RAVLT immediate and delayed recall)
 3. Hippocampal volume
+
+<br>
+<table align="center">
+  <tr><td><img src="figs/fig2.png" alt="fig2"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Confusion Matrix. The 2 × 2 confusion matrix computed for the sMCI and cAD labels returned from applying the trained nonlinear RF model prediction on the test set compared with the co-occurrences of the true (observed) sMCI/cAD (longitudinal defined diagnose) labels. The diagonal cells represent correctly classified subjects (the number of occurrences in each cell is given as N, TN: true negative, TP: true positive, FP: false positive, FN: false negative), and these cells are shaded in blue. Off-diagonal cells represent various events of misclassification. Observed predicted co-occurrences are also accompanied, for each cell, with corresponding information about sex ratio (F/M), mean(SD) in; FAQ: Functional Activity Questioner, GDS: Geriatric Depression Scale, RAVLT-Im: Rey Auditory Verbal Learning Test immediate recall, TMTB: Trail Making Test part B, HC: hippocampus volume, LVV: lateral ventricle volume</span></i></td></tr>
+</table>
+<br>
 
 Post-hoc analyses revealed that even subtle changes in everyday functioning (FAQ scores as low as 1-2) significantly increased the risk of conversion to AD. Individuals scoring ≥1.5 on the FAQ showed a distinctly different pattern than those scoring <1.5, suggesting a meaningful threshold far lower than the traditional cutoff of 9.
 
