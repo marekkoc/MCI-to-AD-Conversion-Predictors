@@ -57,12 +57,12 @@ The findings highlight the importance of including functional activity assessmen
 
 1.Personalized prognosis & treatment using Ledley-Jaynes machines: An example study on conversion
 from Mild Cognitive Impairment to Alzheimer’s Disease, P.G.L. Porta Mana, I. Rye, A. Vik, M. Kociński,
-A. Lundervold, A. J. Lundervold, A. S. Lundervold: Open Science Framework, 2023 ,
-([link](https://doi:10.31219/osf.io/8nr5)).
+A. Lundervold, A. J. Lundervold, A. S. Lundervold: Open Science Framework, 2023,
+([link](https://osf.io/preprints/osf/8nr56_v1))).
 
 2.Functional activity level reported by an informant is an early predictor of Alzheimer’s disease, A. Vik,
-M. Kociński, I. Rye, A. J. Lundervold, A. S. Lundervold, BMC Geriatr 23, 205, 2023 ,
-)[link](https://doi.org/10.1186/s12877-023-03849-7)).
+M. Kociński, I. Rye, A. J. Lundervold, A. S. Lundervold, BMC Geriatr 23, 205, 2023,
+([link](https://doi.org/10.1186/s12877-023-03849-7)).
 
 3.Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using
 clinically transferable features. I. Rye, A. Vik, M. Kocinski, A.S. Lundervodld, A.J. Lundervold, Sci Rep
