@@ -23,6 +23,12 @@ The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To 
 - Gender distribution
 - Class belonging (sMCI vs. cAD)
 - Length of participation in the study
+<br>
+<table align="center">
+  <tr><td><img src="figs/fig1.png" alt="fig1"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Train-Test Balance. Controlling for gender, age bins, age and length of participation in years in the train (A) and test (B) set</span></i></td></tr>
+</table>
+<br>
 
 This balanced data approach ensured that demographic characteristics and participation duration were similarly distributed across both the training and test sets, enhancing the reliability of the model's performance evaluation. None of the subjects were present in both the training and test sets.
 
