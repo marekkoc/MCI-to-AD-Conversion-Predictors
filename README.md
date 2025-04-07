@@ -29,6 +29,11 @@ The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To 
   <tr><td align="center"><i><span style="font-size:smaller;">Train-Test Balance. Controlling for gender, age bins, age and length of participation in years in the train (A) and test (B) set</span></i></td></tr>
 </table>
 <br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig5.png" alt="fig5"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">SHAP importance. The figure displays the SHAP summary plot of the features of the RF model. A dot is created for each feature attribution value for the model of each subject. Dots are colored according to feature values. Thus, higher values (represented by red color) for FAQ and lower values for RAVLT -Im, -Delay, and HC (blue) increase the prediction of conversion to AD. Symmetrically, low values in FAQ and high values in RAVLT and HC decrease the prediction of conversion to AD. When the distribution is clustered around 0 indicates that the feature is less relevant. The more skewed the distribution, the more important the feature. The features are ordered according to their importance</span></i></td></tr>
+</table>
+<br>
 
 This balanced data approach ensured that demographic characteristics and participation duration were similarly distributed across both the training and test sets, enhancing the reliability of the model's performance evaluation.
 
