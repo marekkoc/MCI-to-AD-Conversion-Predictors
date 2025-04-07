@@ -25,7 +25,7 @@ The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To 
 - Length of participation in the study
 <br>
 <table align="center">
-  <tr><td><img src="figs/fig1.png" alt="fig1"></td></tr>
+  <tr><td align="center"><img src="figs/fig1.png" alt="fig1"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Train-Test Balance. Controlling for gender, age bins, age and length of participation in years in the train (A) and test (B) set</span></i></td></tr>
 </table>
 <br>
@@ -41,7 +41,7 @@ A Random Forest algorithm was implemented with optimized hyperparameters through
 
 <br>
 <table align="center">
-  <tr><td><img src="figs/fig3.png" alt="fig3"></td></tr>
+  <tr><td align="center"><img src="figs/fig3.png" alt="fig3"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Feature Importance. Bar graph displaying the relative order of the eleven features (y-axis) when classifying sMCI versus cAD by the RF model evaluated on the hold-out validation set. The importance is estimated as gini importance. The x-axis shows the relative importance score. RAVLT: Rey Auditory Verbal Learning Test, TMT: Trail Making Test part A and B, CFT: Category Fluency Test; LVV: lateral ventricle volumes, GDS: Geriatric Depression Scale, FAQ: Functional Activity Questioner</span></i></td></tr>
 </table>
 <br>
@@ -55,7 +55,7 @@ The model achieved approximately 70% accuracy in predicting conversion from MCI 
 
 <br>
 <table align="center">
-  <tr><td><img src="figs/fig2.png" alt="fig2"></td></tr>
+  <tr><td align="center"><img src="figs/fig2.png" alt="fig2"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Confusion Matrix. The 2 × 2 confusion matrix computed for the sMCI and cAD labels returned from applying the trained nonlinear RF model prediction on the test set compared with the co-occurrences of the true (observed) sMCI/cAD (longitudinal defined diagnose) labels. The diagonal cells represent correctly classified subjects (the number of occurrences in each cell is given as N, TN: true negative, TP: true positive, FP: false positive, FN: false negative), and these cells are shaded in blue. Off-diagonal cells represent various events of misclassification. Observed predicted co-occurrences are also accompanied, for each cell, with corresponding information about sex ratio (F/M), mean(SD) in; FAQ: Functional Activity Questioner, GDS: Geriatric Depression Scale, RAVLT-Im: Rey Auditory Verbal Learning Test immediate recall, TMTB: Trail Making Test part B, HC: hippocampus volume, LVV: lateral ventricle volume</span></i></td></tr>
 </table>
 <br>
