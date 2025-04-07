@@ -30,7 +30,7 @@ The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To 
 </table>
 <br>
 
-This balanced data approach ensured that demographic characteristics and participation duration were similarly distributed across both the training and test sets, enhancing the reliability of the model's performance evaluation. None of the subjects were present in both the training and test sets.
+This balanced data approach ensured that demographic characteristics and participation duration were similarly distributed across both the training and test sets, enhancing the reliability of the model's performance evaluation.
 
 A Random Forest algorithm was implemented with optimized hyperparameters through 10-fold cross-validation. Multiple interpretability approaches were applied to understand feature importance:
 - Gini importance from the Random Forest model
