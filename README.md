@@ -1,6 +1,6 @@
 # MCI-to-AD-Conversion-Predictors
 
-This repository contains code and analysis related to the research paper "Functional activity level reported by an informant is an early predictor of Alzheimer's disease" (Vik et al., 2023). ([source code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb))
+This repository contains code and analysis related to the research paper "Functional activity level reported by an informant is an early predictor of Alzheimer's disease" (Vik et al., 2023) ([source code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb)).
 
 ## Summary
 
