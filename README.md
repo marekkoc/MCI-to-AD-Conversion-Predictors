@@ -4,6 +4,12 @@ This repository contains code and analysis related to the research paper "Functi
 
 Source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb).
 
+Dodaję informacje o balansowaniu danych do rozszerzonego opisu repozytorium:
+
+# MCI-to-AD-Conversion-Predictors
+
+This repository contains code and analysis related to the research paper "Functional activity level reported by an informant is an early predictor of Alzheimer's disease" (Vik et al., 2023).
+
 ## Summary
 
 The study investigates whether subtle changes in daily life functioning reported by close informants can predict conversion from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD). Using longitudinal data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), the researchers identified 360 patients with stable MCI (sMCI) and 320 who converted to AD (cAD).
