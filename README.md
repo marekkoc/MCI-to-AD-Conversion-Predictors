@@ -39,6 +39,14 @@ A Random Forest algorithm was implemented with optimized hyperparameters through
 - SHapley Additive exPlanations (SHAP) values
 - Partial dependency plots (PDP) and individual composition expectation (ICE) plots
 
+<br>
+<table align="center">
+  <tr><td><img src="figs/fig3.png" alt="fig3"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Feature Importance. Bar graph displaying the relative order of the eleven features (y-axis) when classifying sMCI versus cAD by the RF model evaluated on the hold-out validation set. The importance is estimated as gini importance. The x-axis shows the relative importance score. RAVLT: Rey Auditory Verbal Learning Test, TMT: Trail Making Test part A and B, CFT: Category Fluency Test; LVV: lateral ventricle volumes, GDS: Geriatric Depression Scale, FAQ: Functional Activity Questioner</span></i></td></tr>
+</table>
+<br>
+
+
 ## Key Findings
 
 The model achieved approximately 70% accuracy in predicting conversion from MCI to AD in the test set, with 69% sensitivity and 77% specificity. Multiple model interpretation techniques consistently identified three key predictors:
