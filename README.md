@@ -23,7 +23,7 @@ A Random Forest (RF) classification model was developed using 11 features includ
 
 ### Methods
 
-The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To ensure representativeness and prevent bias, both datasets were carefully balanced by stratifying with respect to:
+The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To ensure representativeness and prevent bias, both datasets were carefully [balanced](https://github.com/marekkoc/MCI-to-AD-Conversion-Predictors/blob/main/src/2.02-data2-descriptive-balance-check.ipynb) by stratifying with respect to:
 - Age bins
 - Gender distribution
 - Class belonging (sMCI vs. cAD)
