@@ -8,6 +8,7 @@ This repository contains selected code samples and data analysis tools related t
 
 ## 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
+Source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) ([paper code sample](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb), MMIV access only: [full project repo](https://github.com/MMIV-ML/MCI-subgroups)).
 
 ### Summary
 
@@ -81,6 +82,8 @@ The findings highlight the importance of including functional activity assessmen
 
 ## 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
 
+[Paper code sample](https://github.com/marekkoc/MCI-to-AD-Conversion-Predictors/blob/main/src/3.13_K50-data2-RF-bl_correct_names.ipynb), (MMIV access only: [full repo](https://github.com/MMIV-ML/MCI-subgroups)).
+
 ## Summary
 
 This study investigates the prediction of conversion from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD) using only features that are clinically available during an initial assessment. Using longitudinal data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), 357 patients with stable MCI (sMCI) and 321 where identified who converted to AD (cAD).
@@ -118,10 +121,8 @@ A. Lundervold, A. J. Lundervold, A. S. Lundervold: Open Science Framework, 2023,
 
 2.Functional activity level reported by an informant is an early predictor of Alzheimer’s disease, A. Vik,
 M. Kociński, I. Rye, A. J. Lundervold, A. S. Lundervold, BMC Geriatr 23, 205, 2023,
-([link](https://doi.org/10.1186/s12877-023-03849-7)),
-Source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) ([paper code sample](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb), MMIV access only: [full project repo](https://github.com/MMIV-ML/MCI-subgroups)).
+([link](https://doi.org/10.1186/s12877-023-03849-7)).
 
 3.Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using
 clinically transferable features. I. Rye, A. Vik, M. Kocinski, A.S. Lundervodld, A.J. Lundervold, Sci Rep
-12, 15566, 2022, ([link](https://doi.org/10.1038/s41598-022-18805-5)),
-[Code sample](https://github.com/marekkoc/MCI-to-AD-Conversion-Predictors/blob/main/src/3.13_K50-data2-RF-bl_correct_names.ipynb), (MMIV access only: [full repo](https://github.com/MMIV-ML/MCI-subgroups)).
+12, 15566, 2022, ([link](https://doi.org/10.1038/s41598-022-18805-5)).
