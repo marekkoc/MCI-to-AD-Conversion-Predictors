@@ -4,7 +4,7 @@ This repository contains selected code samples and data analysis tools related t
 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease." (Vik et al., 2023).
 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features." (Rye et al., 2022).
 
---
+---
 
 ## 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
