@@ -81,7 +81,6 @@ The findings highlight the importance of including functional activity assessmen
 
 ## 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
 
-
 ## Summary
 
 This study investigates the prediction of conversion from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD) using only features that are clinically available during an initial assessment. Using longitudinal data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), 357 patients with stable MCI (sMCI) and 321 where identified who converted to AD (cAD).
