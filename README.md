@@ -8,7 +8,7 @@ This repository contains selected code samples and data analysis tools related t
 
 ## 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
-Source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) ([paper code sample](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb), MMIV access only: [full project repo](https://github.com/MMIV-ML/MCI-subgroups)).
+Source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) ([paper code sample](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb),[full project repo](https://github.com/MMIV-ML/MCI-subgroups)(MMIV access only)).
 
 ### Summary
 
@@ -82,7 +82,7 @@ The findings highlight the importance of including functional activity assessmen
 
 ## 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
 
-[Paper code sample](https://github.com/marekkoc/MCI-to-AD-Conversion-Predictors/blob/main/src/3.13_K50-data2-RF-bl_correct_names.ipynb), (MMIV access only: [full repo](https://github.com/MMIV-ML/MCI-subgroups)).
+[Paper code sample](https://github.com/marekkoc/MCI-to-AD-Conversion-Predictors/blob/main/src/3.13_K50-data2-RF-bl_correct_names.ipynb), ([full repo](https://github.com/MMIV-ML/MCI-subgroups)(MMIV access only)).
 
 ## Summary
 
