@@ -7,7 +7,7 @@ This repository contains selected code samples and data analysis tools related t
 
 ## 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
-Exact source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) (private [MMIV repo](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb)).
+Exact source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) ([full MMIV repo](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb)).
 
 
 ### Summary
