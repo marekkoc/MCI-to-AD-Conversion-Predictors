@@ -5,7 +5,7 @@ This repository contains selected code samples and data analysis tools related t
 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features." (Rye et al., 2022).
 
 
-## "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
+## 1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
 Exact source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) (private [MMIV repo](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb)).
 
@@ -79,7 +79,7 @@ The results demonstrate that informant reports about functional changes should b
 The findings highlight the importance of including functional activity assessments in longitudinal studies investigating pathways from normal cognitive aging to AD and other neurodegenerative disorders. While the prediction accuracy (70%) is not yet sufficient for direct clinical implementation, the results suggest that incorporating FAQ assessments in clinical evaluations could enhance early risk assessment for AD conversion.
 
 
-## "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
+## 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
 
 Oto zaktualizowane streszczenie artykułu drugiego, które wyraźnie podkreśla wykorzystanie danych z pierwszej wizyty:
 
