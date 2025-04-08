@@ -1,11 +1,16 @@
 # MCI-to-AD-Conversion-Predictors
 
-This repository contains selected code samples and data analysis tools related to the research paper "Functional activity level reported by an informant is an early predictor of Alzheimer's disease." (Vik et al., 2023).
+This repository contains selected code samples and data analysis tools related to the research papers:
+1. "Functional activity level reported by an informant is an early predictor of Alzheimer's disease." (Vik et al., 2023).
+2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features." (Rye et al., 2022).
+
+
+## "Functional activity level reported by an informant is an early predictor of Alzheimer's disease."
 
 Exact source code to the reasearch paper is available here: [Vik_et_al_FAQ-predictor-of-AD_paper-source-code](https://github.com/marekkoc/Vik_et_al_FAQ-predictor-of-AD_paper-source-code/blob/main/faq-predictor-of-ad.ipynb) (private [MMIV repo](https://github.com/MMIV-ML/MCI-subgroups/blob/master/src/3.31-data2-RF-bl-FAQ-without-gender.ipynb)).
 
 
-## Summary
+### Summary
 
 The study investigates whether subtle changes in daily life functioning reported by close informants can predict conversion from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD). Using longitudinal data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), the researchers identified 360 patients with stable MCI (sMCI) and 320 who converted to AD (cAD).
 
@@ -16,7 +21,7 @@ A Random Forest (RF) classification model was developed using 11 features includ
 - Brain volume measurements (hippocampal volume and lateral ventricle volumes from MRI)
 - Age and Geriatric Depression Scale (GDS) scores
 
-## Methods
+### Methods
 
 The dataset was split into training (79%, n=540) and test (21%, n=140) sets. To ensure representativeness and prevent bias, both datasets were carefully balanced by stratifying with respect to:
 - Age bins
@@ -51,7 +56,7 @@ A Random Forest algorithm was implemented with optimized hyperparameters through
 </table>
 <br>
 
-## Key Findings
+### Key Findings
 
 The model achieved approximately 70% accuracy in predicting conversion from MCI to AD in the test set, with 69% sensitivity and 77% specificity. Multiple model interpretation techniques consistently identified three key predictors:
 1. Daily life functioning (FAQ scores)
@@ -72,6 +77,43 @@ The results demonstrate that informant reports about functional changes should b
 ## Clinical Implications
 
 The findings highlight the importance of including functional activity assessments in longitudinal studies investigating pathways from normal cognitive aging to AD and other neurodegenerative disorders. While the prediction accuracy (70%) is not yet sufficient for direct clinical implementation, the results suggest that incorporating FAQ assessments in clinical evaluations could enhance early risk assessment for AD conversion.
+
+
+## "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
+
+Oto zaktualizowane streszczenie artykułu drugiego, które wyraźnie podkreśla wykorzystanie danych z pierwszej wizyty:
+
+# Predicting Conversion to Alzheimer's Disease Using Clinically Transferable Features
+
+This repository contains code and analysis related to the research paper "Predicting conversion to Alzheimer's Disease in individuals with Mild Cognitive Impairment using clinically transferable features" (Rye et al., 2022).
+
+## Summary
+
+This study investigates the prediction of conversion from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD) using only features that are clinically available during an initial assessment. Using longitudinal data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), researchers identified 357 patients with stable MCI (sMCI) and 321 who converted to AD (cAD).
+
+Importantly, all prediction models were built using **only baseline (first visit) data**, making the approach clinically relevant for early risk assessment when a patient first presents with cognitive concerns. The longitudinal data was used solely to determine which patients remained stable and which eventually converted to AD over time.
+
+Two machine learning classification models were developed:
+1. An ensemble-based model combining five different algorithms
+2. A Random Forest (RF) model
+
+The models were trained using features commonly available in clinical settings at baseline:
+- Demographic data (age, gender)
+- Cognitive assessments (RAVLT memory tests, Trail Making Test, Category Fluency Test)
+- Hippocampal volume measurements from MRI
+- APOE genetic status
+
+Both models achieved approximately 70% classification accuracy in cross-validation, with similar performance on an unseen test set (66.2% for RF and 68.3% for the ensemble model). The models largely overlapped in the subjects they misclassified, suggesting consistent patterns in prediction challenges.
+
+Feature importance analyses consistently identified three key baseline predictors:
+1. Memory function tests, particularly RAVLT immediate recall
+2. Hippocampal volume
+3. APOE genetic status
+
+Exploratory analysis of correctly and incorrectly classified patients showed that sMCI patients who were falsely classified as converters to AD showed lower performance on memory and executive function tests at baseline than correctly classified sMCI patients, suggesting they might potentially convert to AD in a longer timeframe.
+
+The findings support that impaired memory function at initial assessment is a core symptom in MCI patients on a trajectory towards AD. This research demonstrates that relatively modest but above-chance prediction accuracy can be achieved using clinically transferable features from a single baseline visit, which could inform the development of prognostic tools to aid clinicians in making individualized risk assessments.
+
 
 ## Publications
 
