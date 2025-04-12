@@ -76,9 +76,8 @@ The results demonstrate that informant reports about functional changes should b
 
 ## Clinical Implications
 
-
 The findings highlight the importance of including functional activity assessments in longitudinal studies investigating pathways from normal cognitive aging to AD and other neurodegenerative disorders. While the prediction accuracy (70%) is not yet sufficient for direct clinical implementation, the results suggest that incorporating FAQ assessments in clinical evaluations could enhance early risk assessment for AD conversion.
-<br><br>
+<br><br><br><br>
 ---
 
 ## 2. "Predicting conversion to Alzheimer’s disease in individuals with Mild Cognitive Impairment using clinically transferable features."
